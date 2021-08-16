@@ -294,6 +294,7 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height: 40px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -669,7 +670,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -696,6 +697,26 @@ h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
+#size{
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+#txt-comment{
+    font-style: italic;
+    font-size: 20px;
+    margin-right: 125px;
+    margin-left: 125px;
+    margin-bottom: 0;
+}
+
+#txt-project{
+    font-size: 22px;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.center-block{width: 100px;}
 
 h3 {
     font-size: 15px;
@@ -706,8 +727,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
-    box-shadow: 0px 0px 0px #000000;
+    margin: auto;
 }
 
 h4 {
@@ -1012,8 +1032,8 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
-    }
-} */
+    }*/
+} 
 
 @media (max-width: 400px) {
     .bloc {
