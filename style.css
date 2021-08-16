@@ -670,12 +670,12 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .cta-hero {
@@ -690,7 +690,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -717,6 +717,33 @@ h2 {
 }
 
 .center-block{width: 100px;}
+
+@media (max-width: 1023px) and (min-width: 768px){
+    #size{
+        margin-right: 45px;
+        margin-left: 45px;
+    }
+    #txt-project{
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+}
+
+@media (max-width: 767px){
+    #size{
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0 !important;
+    }
+    #txt-project{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #txt-comment{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
 
 h3 {
     font-size: 15px;
@@ -758,7 +785,7 @@ h4 {
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    padding: 40px;
 }
 
 .bold-link {
@@ -825,7 +852,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
