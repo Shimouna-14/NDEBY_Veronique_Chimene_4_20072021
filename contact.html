@@ -20,12 +20,12 @@
 
 <body>
 	<main>
-		<div class="bloc">
+		<header class="bloc">
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Logo écrit La chouette agence avec une chouette à gauche"/></a>
-						<button type="button" role="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+						<button aria-label="menu" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 							<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 						</button>
 					</div>
@@ -37,7 +37,7 @@
 					</div>
 				</nav>
 			</div>
-		</div>
+		</header>
 		<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine bloc-bg-texture">
 			<div class="container bloc-lg">
 				<div class="row">
@@ -52,8 +52,7 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form novalidate success-msg="Your message has been sent."
-							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
 								<label for="name">Nom</label>
 								<input id="name" class="form-control" required />
@@ -77,11 +76,11 @@
 			</div>
 		</div>
 		<a class="btn scrollToTop showScrollTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-		<div class="bloc bgc-atomic-tangerine">
+		<footer class="bloc bgc-atomic-tangerine">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
-						<p class="text-center">La chouette agence - Agence web basée à Lyon.<br></p>
+						<p class="text-center">La chouette agence - Agence web basée à Lyon.</p>
 						<div class="row social text-center">
 							<div class="col-sm-3"><span class="fa fa-twitter icon-md"></span></div>
 							<div class="col-sm-3"><span class="fa fa-facebook icon-md"></span></div>
@@ -91,7 +90,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</footer>
 	</main>
 </body>
 </html>
